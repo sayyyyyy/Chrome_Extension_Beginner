@@ -3,9 +3,11 @@
 ## ファイル構成
 ### 最低限
 root/
-    manifest: 拡張機能を定義するファイル
+    manifest.json: 拡張機能を定義するファイル
 
 ### 今回の構成
 root/
-    README: リポジトリの説明
-    manifest: 拡張機能を定義するファイル
+    README.md: リポジトリの説明を記述するファイル
+    manifest.json: 拡張機能を定義するファイル
+    scripts/
+        content.js: ページで処理する内容を記述するファイル
